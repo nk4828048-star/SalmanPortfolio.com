@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   
+  <header>
+    <nav>
+      <div class="logo">Salman Arain Portfolio</div>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button id="mode-toggle">🌙</button>
+    </nav>
+  </header>
+  <section id="home" class="home">
+    <h1>Hello, I'm <span class="typing-text"></span></h1>
+    <p>Web Developer | Designer | Programmer</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Salman Arain is a passionate Software Engineer 
+    who provides web development, design solutions, 
+    SEO content writing, and video editing services 
+    for clients, businesses, and technology 
+    enthusiasts, along with support for freelancing 
+    and digital career growth. With a strong emphasis 
+    on building high-quality websites, creative visuals, 
+    and optimized content, he has become a trusted 
+    resource for individuals and brands worldwide. 
+    Salman offers a wide range of expertise in modern 
+    development practices, digital marketing, editing 
+    skills, and user-focused design.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-box">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">React</div>
+      <div class="skill">Java</div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>My Work</h2>
+    <div class="project-buttons">
+      <button onclick="window.open('file:///C:/Users/HP/Desktop/Login%20form/index.html', '_blank')">Project 1 - Login-Form</button>
+      <button onclick="window.open('file://C:/Users/HP/Desktop/webdesign/index.html', '_blank')">Project 2 - E-commerce Site</button>
+      <button onclick="window.open('file:///C:/Users/HP/Desktop/New%20watch%20fold/index.html', '_blank')">Project 3 - Analog-Watch</button>
+      <button onclick="window.open('file:///C:/Users/HP/Desktop/website/index.html', '_blank')">Project 4 - E-commerce Site</button>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="form-msg" class="form-msg"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Salman Arain. All rights reserved!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
